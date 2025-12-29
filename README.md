@@ -29,24 +29,13 @@ To run HashNote locally, you must serve the files via a simple HTTP server, as s
     cd HashNote
     ```
 
-2.  **Start the Local HTTP Server:**
+2.  **Start the Custom Local Server:**
 
-    ### A. Using the included `server.py` (Recommended)
-
-    If you have Python 3 installed, you can simply run the provided script, which automatically starts the server on port 8000.
+    Run the custom server script using Python 3. It will automatically handle the necessary routing and start the application on port 8000.
 
     ```bash
     python3 server.py
     ```
-
-    ### B. Manual Python Server (Alternative)
-
-    If you prefer starting the server manually or need to use a different port, you can use Python's built-in `http.server` module directly from the command line:
-
-    | Python Version | Command |
-    | :--- | :--- |
-    | **Python 3+** | `python3 -m http.server 8000` |
-    | **Python 2** | `python -m SimpleHTTPServer 8000` |
 
 3.  **Access the Editor:**
 
